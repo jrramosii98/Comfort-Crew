@@ -1,0 +1,282 @@
+body {
+    background-color: #0A3161;
+}
+header {
+    background-color: #0A3161;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+
+}
+.navbar a{
+    padding: 12px;
+    text-decoration: none;
+    width: auto; 
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: #0A3161 !important;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+}
+/*
+.navContainer{
+    background-color: #0A3161;
+}
+*/
+.container-fluid {
+    background-color: #0A3161;
+    padding: none;
+    display: inline;
+}
+li.nav-item {
+     font-family:'PT Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 41px;
+     color: #FFFBF1;
+     background-color: #0A3161;
+     list-style-type: none;
+}
+.donate {
+    background: #F2A413;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'PT Sans';
+    color: #0A3161;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+.hero-image{
+    height: 705px;
+    left: 0px;
+
+    background-image: linear-gradient(180deg, rgba(217,217,217,0) 37.5%, #0A3161 92.71%), url("../images/heroImg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.hero-text-container{
+    
+}
+.missionBannerContainer{
+    display: center;
+    width: 1277px;
+}
+h1 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 166px;
+    color: #FFFBF1;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+h2 {
+    position: relative;
+    left: 5.69%;
+    right: 5.62%;
+    top: 31.36%;
+    bottom: 58.67%;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+
+    color: #FFFBF1;
+}
+p.ourMissionText{
+    position: relative;
+    left: 5.69%;
+    right: 5.62%;
+    top: 31.36%;
+    bottom: 58.67%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFBF1;
+}
+.ourMissionLine{
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 91px;
+    top: 972px;
+
+    border: 4px solid #F2A413;
+}
+h3{
+    height: 97.38px;
+    left: 69px;
+    float: left;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+
+    color: #0A3161;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+div.reachBanner {
+    height: 411px;
+    background-color: #FFFBF1;
+    width: 100%;
+    display: flex;
+}
+h3#reach {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+
+    color: #0A3161;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p.reachText{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 487px;
+    color: #0A3161;
+    margin: 0;
+    clear: both;
+}
+#reachImage {
+    width: 823px;
+    float: right;
+    object-fit: none;
+}
+h4{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+
+    color: #FFFBF1;
+}
+.cardButtons{
+    background-color: #0A3161;
+    width: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.CAEBanner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid: 'comfortKitsButton onlineAcademyButton eventsButton';
+}
+.card{
+    width: 423px;
+    height: 349px;
+    object-fit: scale-down;
+}
+.ComfortKitsCard{
+    grid-area: 'comfortKitsButton';
+    background-image: url("../images/comfortKitsPhoto.jpeg");
+    
+}
+.EventsCard{
+    grid-area: 'eventsButton';
+    background-image: url("../images/eventsPhoto.png");
+}
+.OnlineAcademyCard{
+    grid-area: 'eventsButton';
+    background-image: url("../images/academyPhoto.png")
+}
+footer{
+    background-color: #8AB4e9;
+}
+.partnersText{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #0A3161;
+
+}
+.partnersBanner{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+.joinFormContainer{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    }
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+}
+.joinButton{
+
+}
+.joinButtonText{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.legalContainer{
+    width: 294px;
+    height: 221.35px;
+}
